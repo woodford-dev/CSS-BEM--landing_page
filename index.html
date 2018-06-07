@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="i make websites (too)">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Cheeky Coffee</title>
+</head>
+<body>
+
+    <!-- HEADER OPTIONS --> 
+        <div class="header__container header__container--country col-xs-8 col-lg-2"> 
+            <div class="container-fluid">
+                <div class="row">
+                    <a id="currency-gb" class="header__container--country__btn--left">
+                        <span class="header__container--country__btn--text">GB</span>
+                    </a>
+                    <a id="currency-usd" class="header__container--country__btn--left">
+                        <span class="header__container--country__btn--text">USD</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__container header__container--lang col-xs-4 col-lg-2 col-lg-push-8">
+            <div class="container-fluid">
+                <div class="row">
+                    <a id="lang-uk" class="header__container--lang__btn">
+                        <span class="header__container--lang__btn--text">UK</span>
+                        <span class="header__container--lang__btn--icon glyphicon glyphicon-chevron-down"></span>
+                    </a>  
+                </div>
+            </div>
+        </div>  
+
+        <div class="header__container header__container--ads col-xs-12 col-lg-8 col-lg-pull-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <p class="header__container--ads__copy">ANNOUNCE SOMETHING HERE</p>
+                </div>
+            </div>
+        </div>
+
+    <!-- HEADER NAVIGATION -->
+    <div class="header-nav__container">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-xs-3 hamburger-menu hidden-md hidden-lg">
+                    <img src="assets/images/icons/ic_drawer.svg" alt="">
+                </div>
+
+                <div class="col-xs-6 col-md-1 col-lg-3 header-nav__col--logo">
+                    <img src="assets/images/logo.svg" alt="company logo">
+                </div>
+
+                <div class="col-md-10 col-lg-6 hidden-xs hidden-sm ">
+                    <nav id="header-nav__links">
+                        <a id="homeLink" class="nav-link  nav-link-sub active col-md-3" href="#">
+                            HOME
+                            
+                                <div class="homeLinkSubNav sub-nav__container sub-nav__container--hide sub-nav__links--home">
+                                    <div class="header-nav__pointer header-nav__pointer--home"></div>
+                                    <div class="header-nav__pointer--border header-nav__pointer--border--home"></div>
+                                    <div class="sub-nav__content">
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <ul>
+                                                <li>Home 1</li>
+                                                <li>Home 2</li>
+                                                <li>Home 3</li>
+                                                <li>Home 4</li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <ul>
+                                                <li>Home 1</li>
+                                                <li>Home 2</li>
+                                                <li>Home 3</li>
+                                                <li>Home 4</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <div class="sub-nav__content--img">
+                                                <img src="assets/images/logo.svg" alt="Home img">
+                                            </div>    
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <div class="sub-nav__content--img">
+                                                <img src="assets/images/logo.svg" alt="Home img">
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                           
+                        </a>
+                        <a id="collecLink" class="nav-link nav-link-sub col-md-3" href="#">
+                            COLLECTIONS
+                            
+                                <div class="collecLinkSubNav sub-nav__container sub-nav__container--hide sub-nav__links--collec">
+                                    <div class="header-nav__pointer header-nav__pointer--collec"></div>
+                                    <div class="header-nav__pointer--border header-nav__pointer--border--collec"></div>
+                                    <div class="sub-nav__content">
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <ul>
+                                                <li>Collections 1</li>
+                                                <li>Collections 2</li>
+                                                <li>Collections 3</li>
+                                                <li>Collections 4</li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <ul>
+                                                <li>Collections 1</li>
+                                                <li>Collections 2</li>
+                                                <li>Collections 3</li>
+                                                <li>Collections 4</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <div class="sub-nav__content--img">
+                                                <img src="assets/images/logo.svg" alt="Collections img">
+                                            </div>    
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <div class="sub-nav__content--img">
+                                                <img src="assets/images/logo.svg" alt="Collections img">
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </a>    
+                        <a id="lbookLink" class="nav-link nav-link-sub col-md-3" href="#">
+                            LOOKBOOK
+                            
+                                <div class="lbookLinkSubNav sub-nav__container sub-nav__container--hide sub-nav__links--lbook">
+                                    <div class="header-nav__pointer header-nav__pointer--lbook"></div>
+                                    <div class="header-nav__pointer--border header-nav__pointer--border--lbook"></div>
+                                    <div class="sub-nav__content">
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <ul>
+                                                <li>LookBook 1</li>
+                                                <li>LookBook 2</li>
+                                                <li>LookBook 3</li>
+                                                <li>LookBook 4</li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <ul>
+                                                <li>LookBook 1</li>
+                                                <li>LookBook 2</li>
+                                                <li>LookBook 3</li>
+                                                <li>LookBook 4</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <div class="sub-nav__content--img">
+                                                <img src="assets/images/logo.svg" alt="lookbook img">
+                                            </div>    
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <div class="sub-nav__content--img">
+                                                <img src="assets/images/logo.svg" alt="lookbook img">
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </a>
+                        <a id="aboutLink" class="nav-link nav-link-sub col-md-3" href="#">
+                            ABOUT
+                           
+                                <div class="aboutLinkSubNav sub-nav__container sub-nav__container--hide sub-nav__links--about">
+                                    <div class="header-nav__pointer header-nav__pointer--about"></div>
+                                    <div class="header-nav__pointer--border header-nav__pointer--border--about"></div>
+                                    <div class="sub-nav__content">
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <ul>
+                                                <li>About 1</li>
+                                                <li>About 2</li>
+                                                <li>About 3</li>
+                                                <li>About 4</li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <ul>
+                                                <li>About 1</li>
+                                                <li>About 2</li>
+                                                <li>About 3</li>
+                                                <li>About 4</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <div class="sub-nav__content--img">
+                                                <img src="assets/images/logo.svg" alt="About img">
+                                            </div>    
+                                        </div>
+                                        <div class="sub-nav__content--col col-md-3">
+                                            <div class="sub-nav__content--img">
+                                                <img src="assets/images/logo.svg" alt="About img">
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </a>
+                    </nav>    
+                </div>
+
+                <div class="col-xs-3 col-md-1 col-lg-3">
+                    <ul id="header-nav__icon">
+                        <li class="header-icon__item hidden-xs hidden-sm hidden-md"><a><img src="assets/images/icons/search.svg" alt="search"></a></li>
+                        <li class="header-icon__item hidden-xs hidden-sm hidden-md"><a><img src="assets/images/icons/profile.svg" alt="profile"></a></li>
+                        <li class="header-icon__item hidden-xs hidden-sm hidden-md"><a><img src="assets/images/icons/heart.svg" alt="favourites"></a></li>
+                        <li class="header-icon__item"><img src="assets/images/icons/bag.svg" alt="shopping"></li>
+                    </ul>
+                </div>
+            </div>    
+        </div>    
+    </div>
+
+    <!--SLIDER SECTION -->
+    <div class="slider-section hero-slider__section">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="hero-slider__image"></div>
+                    <div class="carousel-caption hero-cap__container">
+                        <h2 class="hero-cap__copy hero-cap__copy--h2">Image Slider</h2>
+                        <h4 class="hero-cap__copy hero-cap__copy--h4">Tell us your brand's story through videos and images</h4>
+                        <button class="hero-cap__btn">EXPLORE</button>
+                    </div>
+                </div>
+                <div class="item">
+                        <div class="hero-slider__image"></div>
+                    <div class="carousel-caption hero-cap__container">
+                        <h2 class="hero-cap__copy hero-cap__copy--h2">Image Slider</h2>
+                        <h4 class="hero-cap__copy hero-cap__copy--h4">Tell us your brand's story through videos and images</h4>
+                        <button class="hero-cap__btn">EXPLORE</button>
+                    </div>
+                </div>
+            </div>
+            <a class="left hidden-xs carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right hidden-xs carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="mobile-nav__container">
+        <h1>I know what you're thinking...</h1>
+        <h2>Where is the navigation?</h2>
+        <h3>Well it's 404 guys, sorry!</h3>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
